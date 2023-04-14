@@ -34,6 +34,16 @@ $(function () {
   })
 
   //displays today date with ordinal
-  var currentday = dayjs().format('dddd, MMMM Do');
-  $('#currentDay').text(currentday);
+  var currentday = dayjs().format('dddd, MMMM D');
+  var ordinal = dayjs().format('D');
+  switch(ordinal){
+    case(ordinal % 10 == 1):
+      $('#currentDay').text(currentday + "st");
+    case (ordinal % 10==2):
+      $('#currentDay').text(currentday + "nd");  
+    case (ordinal % 10==2):
+      $('#currentDay').text(currentday + "rd");  
+    default:
+      $('#currentDay').text(currentday + "th"); 
+  };
 });
