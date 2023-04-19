@@ -1,5 +1,5 @@
 # Work-Day-Scheduler
-This application allows a user to save events for each hour of the day.
+This application allows a user to save events for each working hour of the day.
 ## User Story
 
 ```
