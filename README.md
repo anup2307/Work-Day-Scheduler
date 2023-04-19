@@ -27,6 +27,8 @@ THEN the saved events persist
 ```
 
 ##End Result
-The updated URL for the deplyed page
+The updated URL for the deplyed page : https://anup2307.github.io/Work-Day-Scheduler/
 
 ##Screenshots
+![image](https://user-images.githubusercontent.com/124316722/233184691-555d7512-7c52-4bd5-9cf3-106a33521732.png)
+![image](https://user-images.githubusercontent.com/124316722/233184534-d7640714-ef3f-4cad-8c56-cce09269fc48.png)
